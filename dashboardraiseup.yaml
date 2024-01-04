@@ -1,0 +1,8 @@
+appId: com.hubtel.raiseapp
+---
+- launchApp
+- tapOn: "Contact School\nOngoing"
+- tapOn:
+    point: "50%,34%"
+- tapOn: "Onboarding"
+- tapOn: "Logout"

@@ -1,0 +1,29 @@
+appId: com.hubtel.raiseapp
+---
+- launchApp
+- tapOn: "GET STARTED"
+- tapOn: "+233\nYour mobile number"
+- tapOn:
+    point: "32%,91%"
+- tapOn:
+    point: "32%,78%"
+- tapOn:
+    point: "7%,78%"      
+- tapOn:
+    point: "32%,91%"
+- tapOn:
+    point: "7%,84%"
+- tapOn:
+    point: "32%,78%"
+- tapOn:
+    point: "32%,78%"
+- tapOn:
+    point: "32%,71%"
+- tapOn:
+    point: "32%,71%"
+- tapOn:
+    point: "56%,71%"
+- tapOn:
+    point: "87%,91%"
+- assertVisible: "GET SMS CODE"
+- tapOn: "GET SMS CODE"
